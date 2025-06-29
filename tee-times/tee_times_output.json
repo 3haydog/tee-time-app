@@ -1,0 +1,18 @@
+[
+  {
+    "time": "02:50 PM",
+    "holes": "9 or 18 holes",
+    "players": 4,
+    "price": "$29 for 9 holes, $58 for 18 holes",
+    "side": "Front",
+    "course": "Fox Hollow"
+  },
+  {
+    "time": "06:20 PM",
+    "holes": "9 holes",
+    "players": 4,
+    "price": "$27.00",
+    "side": "Front",
+    "course": "Talon's Cove"
+  }
+]

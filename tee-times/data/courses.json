@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Sleepy Ridge",
+    "platform": "foreup",
+    "client_id": 19396,
+    "course_id": 1726,
+    "booking_class": 3412,
+    "schedule_id": 1726,
+    "zip": "84058"
+  },
+  {
+    "name": "Timpanogos",
+    "platform": "foreup",
+    "client_id": 6279,
+    "course_id": 49,
+    "booking_class": 14927,
+    "schedule_id": 49,
+    "zip": "84601"
+  },
+  {
+    "name": "The Oaks",
+    "platform": "foreup",
+    "client_id": 21698,
+    "course_id": 8633,
+    "booking_class": 10949,
+    "schedule_id": 8633,
+    "zip": "84660"
+  },
+  {
+    "name": "Thanksgiving Point",
+    "platform": "foreup",
+    "client_id": 19645,
+    "course_id": 2034,
+    "booking_class": 2113,
+    "schedule_id": 2034,
+    "zip": "84043"
+  },
+  {
+    "name": "Fox Hollow",
+    "platform": "membersports",
+    "client_id": 15396,
+    "course_id": 18907,
+    "zip": "84003"
+  },
+  {
+    "name": "Cedar Hills",
+    "platform": "membersports",
+    "client_id": 15381,
+    "course_id": 18891,
+    "zip": "84062"
+  },
+  {
+    "name": "Talon's Cove",
+    "platform": "membersports",
+    "client_id": 15455,
+    "course_id": 18982,
+    "zip": "84045"
+  },
+  {
+    "name": "Hobble Creek",
+    "platform": "membersports",
+    "client_id": 15404,
+    "course_id": 18918,
+    "zip": "84663"
+  }
+]
