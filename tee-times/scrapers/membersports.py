@@ -67,6 +67,7 @@ def get_tee_times(client_id: int, course_id: int, target_date: str):
                 try:
                     time_div = block.query_selector(".timeCol")
                     time_text = time_div.inner_text().strip() if time_div else "Unknown time"
+                    time_text = re.sub(r"^0", "", time_text)
 
                     cards = block.query_selector_all(".teeTimeCard")
                     for card in cards:
@@ -80,16 +81,12 @@ def get_tee_times(client_id: int, course_id: int, target_date: str):
                         if card.query_selector(".holes9"):
                             holes = "9 holes"
                         elif card.query_selector(".holesBoth"):
-                            holes = "9 or 18 holes"
+                            holes = "9/18 holes"
                         else:
                             holes = "unknown"
 
                         price_match = re.search(r"\$([\d.]+)", full_text)
-                        if holes == "9 or 18 holes" and price_match:
-                            full_price = float(price_match.group(1))
-                            nine_price = round(full_price / 2, 2)
-                            price = f"${nine_price:.0f} for 9 holes, ${full_price:.0f} for 18 holes"
-                        elif price_match:
+                        if price_match:
                             price = f"${float(price_match.group(1)):.2f}"
                         else:
                             price = "No price"
