@@ -5,7 +5,7 @@ from datetime import date
 import json
 import traceback
 
-def run_all_scrapers(target_date="2025-06-26"):
+def run_all_scrapers(target_date="2025-07-09"):
     if not target_date:
         target_date = date.today().isoformat()
 
@@ -41,8 +41,11 @@ def run_all_scrapers(target_date="2025-06-26"):
             print(f"  ➤ Found {len(results)} tee times.")
 
             for tee in results:
-                tee["course"] = course["name"]
-                all_tee_times.append(tee)
+                all_tee_times.append({
+                    **tee,
+                    "course": course["name"],
+                    "side": tee.get("side") or "Front"
+                })
 
         except Exception as e:
             print(f"  ❌ Error ({type(e).__name__}): {e}")

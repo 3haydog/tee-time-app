@@ -1,5 +1,6 @@
 import requests
 from datetime import datetime
+import platform
 
 def get_tee_times(client_id, course_id, date, booking_class=None, schedule_id=None):
     """
@@ -70,6 +71,7 @@ def get_tee_times(client_id, course_id, date, booking_class=None, schedule_id=No
 def format_time(raw_time: str) -> str:
     try:
         t = datetime.strptime(raw_time, "%Y-%m-%d %H:%M")
-        return t.strftime("%-I:%M %p")  # "2:00 PM"
+        fmt = "%-I:%M %p" if platform.system() != "Windows" else "%#I:%M %p"
+        return t.strftime(fmt)
     except:
         return raw_time
