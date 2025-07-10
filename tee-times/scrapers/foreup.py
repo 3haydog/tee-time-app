@@ -48,7 +48,7 @@ def get_tee_times(client_id, course_id, date, booking_class=None, schedule_id=No
             continue  # Skip already booked
 
         raw_time = tee.get("time")
-        print("[DEBUG] raw_time =", raw_time)
+
 
         time_formatted = format_time(raw_time)
 

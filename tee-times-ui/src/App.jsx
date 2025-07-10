@@ -6,12 +6,14 @@ export default function App() {
   const [date, setDate] = useState('')
   const [teeTimes, setTeeTimes] = useState([])
   const [loading, setLoading] = useState(false)
+  const [minPlayers, setMinPlayers] = useState(1)
+  const [holes, setHoles] = useState("any")
 
   const fetchTeeTimes = async () => {
     if (!date) return
     setLoading(true)
     try {
-      const res = await fetch(`${API_BASE}/tee-times?date=${date}`)
+      const res = await fetch(`${API_BASE}/tee-times?date=${date}&min_players=${minPlayers}&holes=${holes}`)
       const data = await res.json()
       setTeeTimes(data.tee_times || [])
     } catch (err) {
@@ -38,6 +40,33 @@ export default function App() {
         >
           Get Tee Times
         </button>
+
+        <label>
+          Min Players:
+          <select
+            value={minPlayers}
+            onChange={(e) => setMinPlayers(Number(e.target.value))}
+            className="ml-2 border px-2 py-1 rounded"
+          >
+            <option value={1}>1+</option>
+            <option value={2}>2+</option>
+            <option value={3}>3+</option>
+            <option value={4}>4 only</option>
+          </select>
+        </label>
+
+        <label>
+          Holes:
+          <select
+            value={holes}
+            onChange={(e) => setHoles(e.target.value)}
+            className="ml-2 border px-2 py-1 rounded"
+          >
+            <option value="any">Any</option>
+            <option value="9">9</option>
+            <option value="18">18</option>
+          </select>
+        </label>
       </div>
 
       {loading ? (

@@ -5,7 +5,7 @@ from datetime import date
 import json
 import traceback
 
-def run_all_scrapers(target_date="2025-07-09"):
+def run_all_scrapers(target_date="2025-07-11", min_players=4, holes="any"):
     if not target_date:
         target_date = date.today().isoformat()
 
@@ -29,8 +29,8 @@ def run_all_scrapers(target_date="2025-07-09"):
 
             elif course["platform"] == "membersports":
                 results = get_membersports_tee_times(
-                    client_id=course["client_id"],
-                    course_id=course["course_id"],
+                    golf_club_id=course["golf_club_id"],
+                    golf_course_id=course["golf_course_id"],
                     target_date=target_date
                 )
 
@@ -38,9 +38,13 @@ def run_all_scrapers(target_date="2025-07-09"):
                 print("⚠️ Unknown platform. Skipping.\n")
                 continue
 
-            print(f"  ➤ Found {len(results)} tee times.")
+            filtered_results = [
+                tee for tee in results
+                if tee["players"] >= min_players and (holes == "any" or tee["holes"] == f"{holes} holes")
+            ]
+            print(f"  ➤ Found {len(filtered_results)} tee times after filtering.")
 
-            for tee in results:
+            for tee in filtered_results:
                 all_tee_times.append({
                     **tee,
                     "course": course["name"],

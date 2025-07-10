@@ -38,29 +38,29 @@
   {
     "name": "Fox Hollow",
     "platform": "membersports",
-    "client_id": 15396,
-    "course_id": 18907,
+    "golf_club_id": 15396,
+    "golf_course_id": 18907,
     "zip": "84003"
   },
   {
     "name": "Cedar Hills",
     "platform": "membersports",
-    "client_id": 15381,
-    "course_id": 18891,
+    "golf_club_id": 15381,
+    "golf_course_id": 18891,
     "zip": "84062"
   },
   {
     "name": "Talon's Cove",
     "platform": "membersports",
-    "client_id": 15455,
-    "course_id": 18982,
+    "golf_club_id": 15455,
+    "golf_course_id": 18982,
     "zip": "84045"
   },
   {
     "name": "Hobble Creek",
     "platform": "membersports",
-    "client_id": 15404,
-    "course_id": 18918,
+    "golf_club_id": 15404,
+    "golf_course_id": 18918,
     "zip": "84663"
   }
 ]
