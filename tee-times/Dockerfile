@@ -40,8 +40,6 @@ COPY . .
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
-# Install Playwright dependencies + browsers
-RUN python -m playwright install --with-deps
 
 # Expose port
 EXPOSE 8000
