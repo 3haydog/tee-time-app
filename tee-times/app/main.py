@@ -15,12 +15,16 @@ app.add_middleware(
 )
 
 @app.get("/tee-times")
-def get_tee_times(date: Optional[str] = Query(None, description="Format: YYYY-MM-DD")):
+def get_tee_times(
+    date: Optional[str] = Query(None, description="Format: YYYY-MM-DD"),
+    min_players: int = Query(1, ge=1, le=4, description="Minimum open spots"),
+    holes: str = Query("any", pattern="^(9|18|any)$", description="9, 18, or any")
+):
     """
     Aggregates tee times from all courses for a given date (default = today).
     Returns structured list of tee time dictionaries.
     """
-    tee_times = run_all_scrapers(date)
+    tee_times = run_all_scrapers(date, min_players=min_players, holes=holes)
     return {
         "date": date,
         "count": len(tee_times),
