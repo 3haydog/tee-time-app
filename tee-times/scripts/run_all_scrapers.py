@@ -1,3 +1,8 @@
+import sys
+import os
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 from scrapers.foreup import get_tee_times as get_foreup_tee_times
 from scrapers.membersports import get_tee_times as get_membersports_tee_times
 from utils.course_loader import load_courses
@@ -5,7 +10,8 @@ from datetime import date
 import json
 import traceback
 
-def run_all_scrapers(target_date="2025-07-11", min_players=4, holes="any"):
+
+def run_all_scrapers(target_date="2025-07-18", min_players=1, holes="any"):
     if not target_date:
         target_date = date.today().isoformat()
 
@@ -61,6 +67,6 @@ def run_all_scrapers(target_date="2025-07-11", min_players=4, holes="any"):
 
 if __name__ == "__main__":
     tee_times = run_all_scrapers()
-    with open("tee_times_output.json", "w") as f:
+    with open("../debug/tee_times_output.json", "w") as f:
         json.dump(tee_times, f, indent=2)
     print("\n✅ Saved tee times to tee_times_output.json")

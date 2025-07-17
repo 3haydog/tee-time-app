@@ -1,13 +1,5 @@
 [
   {
-    "time": "6:58 AM",
-    "holes": "9 holes",
-    "players": 4,
-    "price": "$25.00",
-    "side": "Front",
-    "course": "Sleepy Ridge"
-  },
-  {
     "time": "7:14 AM",
     "holes": "9 holes",
     "players": 4,
@@ -24,7 +16,7 @@
     "course": "Sleepy Ridge"
   },
   {
-    "time": "12:42 PM",
+    "time": "12:58 PM",
     "holes": "18 holes",
     "players": 4,
     "price": "$48.00",
@@ -110,14 +102,6 @@
     "price": "$48.00",
     "side": "Front",
     "course": "Sleepy Ridge"
-  },
-  {
-    "time": "9:18 AM",
-    "holes": "9/18 holes",
-    "players": 4,
-    "price": "$40.00",
-    "side": "Front",
-    "course": "Timpanogos"
   },
   {
     "time": "10:57 AM",
@@ -217,14 +201,6 @@
   },
   {
     "time": "12:54 PM",
-    "holes": "9 holes",
-    "players": 4,
-    "price": "$20.00",
-    "side": "Front",
-    "course": "Timpanogos"
-  },
-  {
-    "time": "1:03 PM",
     "holes": "9 holes",
     "players": 4,
     "price": "$20.00",
@@ -472,6 +448,14 @@
     "course": "The Oaks"
   },
   {
+    "time": "1:30 PM",
+    "holes": "9/18 holes",
+    "players": 4,
+    "price": "$42.98",
+    "side": "Front",
+    "course": "The Oaks"
+  },
+  {
     "time": "2:40 PM",
     "holes": "9/18 holes",
     "players": 4,
@@ -624,9 +608,25 @@
     "course": "The Oaks"
   },
   {
+    "time": "8:34 AM",
+    "holes": "18 holes",
+    "players": 2,
+    "price": "$68.00",
+    "side": "Front",
+    "course": "Fox Hollow"
+  },
+  {
+    "time": "9:10 AM",
+    "holes": "18 holes",
+    "players": 1,
+    "price": "$60.00",
+    "side": "Front",
+    "course": "Cedar Hills"
+  },
+  {
     "time": "9:50 AM",
     "holes": "18 holes",
-    "players": 4,
+    "players": 2,
     "price": "$60.00",
     "side": "Front",
     "course": "Cedar Hills"
@@ -640,6 +640,38 @@
     "course": "Cedar Hills"
   },
   {
+    "time": "10:30 AM",
+    "holes": "18 holes",
+    "players": 1,
+    "price": "$60.00",
+    "side": "Front",
+    "course": "Cedar Hills"
+  },
+  {
+    "time": "11:20 AM",
+    "holes": "18 holes",
+    "players": 1,
+    "price": "$60.00",
+    "side": "Front",
+    "course": "Cedar Hills"
+  },
+  {
+    "time": "11:30 AM",
+    "holes": "18 holes",
+    "players": 2,
+    "price": "$60.00",
+    "side": "Front",
+    "course": "Cedar Hills"
+  },
+  {
+    "time": "12:00 PM",
+    "holes": "18 holes",
+    "players": 3,
+    "price": "$60.00",
+    "side": "Front",
+    "course": "Cedar Hills"
+  },
+  {
     "time": "12:40 PM",
     "holes": "18 holes",
     "players": 4,
@@ -648,17 +680,105 @@
     "course": "Cedar Hills"
   },
   {
-    "time": "5:00 PM",
+    "time": "1:20 PM",
     "holes": "18 holes",
-    "players": 4,
+    "players": 2,
+    "price": "$60.00",
+    "side": "Front",
+    "course": "Cedar Hills"
+  },
+  {
+    "time": "2:50 PM",
+    "holes": "18 holes",
+    "players": 1,
+    "price": "$60.00",
+    "side": "Front",
+    "course": "Cedar Hills"
+  },
+  {
+    "time": "4:10 PM",
+    "holes": "18 holes",
+    "players": 2,
     "price": "$32.00",
     "side": "Front",
     "course": "Cedar Hills"
   },
   {
+    "time": "4:30 PM",
+    "holes": "18 holes",
+    "players": 2,
+    "price": "$32.00",
+    "side": "Front",
+    "course": "Cedar Hills"
+  },
+  {
+    "time": "5:10 PM",
+    "holes": "18 holes",
+    "players": 2,
+    "price": "$32.00",
+    "side": "Front",
+    "course": "Cedar Hills"
+  },
+  {
+    "time": "5:40 PM",
+    "holes": "18 holes",
+    "players": 1,
+    "price": "$32.00",
+    "side": "Front",
+    "course": "Cedar Hills"
+  },
+  {
+    "time": "7:50 AM",
+    "holes": "18 holes",
+    "players": 1,
+    "price": "$35.00",
+    "side": "Back",
+    "course": "Talon's Cove"
+  },
+  {
+    "time": "8:20 AM",
+    "holes": "18 holes",
+    "players": 1,
+    "price": "$68.00",
+    "side": "Front",
+    "course": "Talon's Cove"
+  },
+  {
+    "time": "8:50 AM",
+    "holes": "18 holes",
+    "players": 1,
+    "price": "$68.00",
+    "side": "Front",
+    "course": "Talon's Cove"
+  },
+  {
+    "time": "9:00 AM",
+    "holes": "18 holes",
+    "players": 1,
+    "price": "$68.00",
+    "side": "Front",
+    "course": "Talon's Cove"
+  },
+  {
+    "time": "10:50 AM",
+    "holes": "18 holes",
+    "players": 2,
+    "price": "$68.00",
+    "side": "Front",
+    "course": "Talon's Cove"
+  },
+  {
+    "time": "11:00 AM",
+    "holes": "18 holes",
+    "players": 2,
+    "price": "$68.00",
+    "side": "Front",
+    "course": "Talon's Cove"
+  },
+  {
     "time": "11:10 AM",
     "holes": "18 holes",
-    "players": 4,
+    "players": 1,
     "price": "$68.00",
     "side": "Front",
     "course": "Talon's Cove"
@@ -683,6 +803,14 @@
     "time": "11:50 AM",
     "holes": "18 holes",
     "players": 4,
+    "price": "$68.00",
+    "side": "Front",
+    "course": "Talon's Cove"
+  },
+  {
+    "time": "12:00 PM",
+    "holes": "18 holes",
+    "players": 3,
     "price": "$68.00",
     "side": "Front",
     "course": "Talon's Cove"
@@ -720,6 +848,14 @@
     "course": "Talon's Cove"
   },
   {
+    "time": "1:10 PM",
+    "holes": "18 holes",
+    "players": 1,
+    "price": "$68.00",
+    "side": "Front",
+    "course": "Talon's Cove"
+  },
+  {
     "time": "1:20 PM",
     "holes": "18 holes",
     "players": 4,
@@ -747,6 +883,14 @@
     "time": "1:50 PM",
     "holes": "18 holes",
     "players": 4,
+    "price": "$68.00",
+    "side": "Front",
+    "course": "Talon's Cove"
+  },
+  {
+    "time": "2:00 PM",
+    "holes": "18 holes",
+    "players": 2,
     "price": "$68.00",
     "side": "Front",
     "course": "Talon's Cove"
@@ -800,6 +944,46 @@
     "course": "Talon's Cove"
   },
   {
+    "time": "3:30 PM",
+    "holes": "18 holes",
+    "players": 2,
+    "price": "$68.00",
+    "side": "Front",
+    "course": "Talon's Cove"
+  },
+  {
+    "time": "3:40 PM",
+    "holes": "18 holes",
+    "players": 1,
+    "price": "$68.00",
+    "side": "Front",
+    "course": "Talon's Cove"
+  },
+  {
+    "time": "3:50 PM",
+    "holes": "18 holes",
+    "players": 1,
+    "price": "$68.00",
+    "side": "Front",
+    "course": "Talon's Cove"
+  },
+  {
+    "time": "4:10 PM",
+    "holes": "18 holes",
+    "players": 2,
+    "price": "$31.00",
+    "side": "Front",
+    "course": "Talon's Cove"
+  },
+  {
+    "time": "4:20 PM",
+    "holes": "18 holes",
+    "players": 2,
+    "price": "$31.00",
+    "side": "Front",
+    "course": "Talon's Cove"
+  },
+  {
     "time": "4:30 PM",
     "holes": "18 holes",
     "players": 4,
@@ -824,12 +1008,52 @@
     "course": "Talon's Cove"
   },
   {
+    "time": "5:30 PM",
+    "holes": "18 holes",
+    "players": 1,
+    "price": "$31.00",
+    "side": "Front",
+    "course": "Talon's Cove"
+  },
+  {
     "time": "5:40 PM",
     "holes": "18 holes",
     "players": 4,
     "price": "$31.00",
     "side": "Front",
     "course": "Talon's Cove"
+  },
+  {
+    "time": "5:50 PM",
+    "holes": "18 holes",
+    "players": 1,
+    "price": "$31.00",
+    "side": "Front",
+    "course": "Talon's Cove"
+  },
+  {
+    "time": "6:00 PM",
+    "holes": "18 holes",
+    "players": 2,
+    "price": "$31.00",
+    "side": "Front",
+    "course": "Talon's Cove"
+  },
+  {
+    "time": "6:10 PM",
+    "holes": "18 holes",
+    "players": 2,
+    "price": "$31.00",
+    "side": "Front",
+    "course": "Talon's Cove"
+  },
+  {
+    "time": "6:30 AM",
+    "holes": "18 holes",
+    "players": 2,
+    "price": "$62.00",
+    "side": "Front",
+    "course": "Hobble Creek"
   },
   {
     "time": "1:40 PM",
@@ -840,10 +1064,74 @@
     "course": "Hobble Creek"
   },
   {
+    "time": "2:20 PM",
+    "holes": "18 holes",
+    "players": 1,
+    "price": "$62.00",
+    "side": "Front",
+    "course": "Hobble Creek"
+  },
+  {
+    "time": "2:50 PM",
+    "holes": "18 holes",
+    "players": 2,
+    "price": "$62.00",
+    "side": "Front",
+    "course": "Hobble Creek"
+  },
+  {
     "time": "3:50 PM",
     "holes": "18 holes",
     "players": 4,
     "price": "$62.00",
+    "side": "Front",
+    "course": "Hobble Creek"
+  },
+  {
+    "time": "4:10 PM",
+    "holes": "18 holes",
+    "players": 2,
+    "price": "$31.00",
+    "side": "Front",
+    "course": "Hobble Creek"
+  },
+  {
+    "time": "4:30 PM",
+    "holes": "18 holes",
+    "players": 2,
+    "price": "$31.00",
+    "side": "Front",
+    "course": "Hobble Creek"
+  },
+  {
+    "time": "4:50 PM",
+    "holes": "18 holes",
+    "players": 2,
+    "price": "$31.00",
+    "side": "Front",
+    "course": "Hobble Creek"
+  },
+  {
+    "time": "5:00 PM",
+    "holes": "18 holes",
+    "players": 1,
+    "price": "$31.00",
+    "side": "Front",
+    "course": "Hobble Creek"
+  },
+  {
+    "time": "5:20 PM",
+    "holes": "18 holes",
+    "players": 2,
+    "price": "$31.00",
+    "side": "Front",
+    "course": "Hobble Creek"
+  },
+  {
+    "time": "5:40 PM",
+    "holes": "18 holes",
+    "players": 2,
+    "price": "$31.00",
     "side": "Front",
     "course": "Hobble Creek"
   }
