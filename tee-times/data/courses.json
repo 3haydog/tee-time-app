@@ -36,31 +36,199 @@
     "zip": "84043"
   },
   {
-    "name": "Fox Hollow",
+    "name": "Broken Tee (CO)",
     "platform": "membersports",
-    "golf_club_id": 15396,
-    "golf_course_id": 18907,
-    "zip": "84003"
+    "golf_club_id": 3689,
+    "golf_course_id": 4748,
+    "zip": "80110"
   },
   {
-    "name": "Cedar Hills",
+    "name": "Canyon Hills (UT)",
+    "platform": "membersports",
+    "golf_club_id": 15379,
+    "golf_course_id": 18889,
+    "zip": "84648"
+  },
+  {
+    "name": "Cedar Hills (UT)",
     "platform": "membersports",
     "golf_club_id": 15381,
     "golf_course_id": 18891,
     "zip": "84062"
   },
   {
-    "name": "Talon's Cove",
+    "name": "City Park (CO)",
     "platform": "membersports",
-    "golf_club_id": 15455,
-    "golf_course_id": 18982,
-    "zip": "84045"
+    "golf_club_id": 3660,
+    "golf_course_id": 4711,
+    "zip": "80205"
   },
   {
-    "name": "Hobble Creek",
+    "name": "Coal Creek (CO)",
+    "platform": "membersports",
+    "golf_club_id": 3663,
+    "golf_course_id": 4714,
+    "zip": "80027"
+  },
+  {
+    "name": "Coyote Creek (CO)",
+    "platform": "membersports",
+    "golf_club_id": 3674,
+    "golf_course_id": 4730,
+    "zip": "80621"
+  },
+  {
+    "name": "Crazy Horse (KS)",
+    "platform": "membersports",
+    "golf_club_id": 7294,
+    "golf_course_id": 9078,
+    "zip": "67502"
+  },
+  {
+    "name": "Eagle Valley (MN)",
+    "platform": "membersports",
+    "golf_club_id": 9133,
+    "golf_course_id": 11343,
+    "zip": "55129"
+  },
+  {
+    "name": "Eaglewood (UT)",
+    "platform": "membersports",
+    "golf_club_id": 15391,
+    "golf_course_id": 18901,
+    "zip": "84054"
+  },
+  {
+    "name": "Elk Rapids (MI)",
+    "platform": "membersports",
+    "golf_club_id": 8503,
+    "golf_course_id": 10518,
+    "zip": "49629"
+  },
+  {
+    "name": "Evergreen (CO)",
+    "platform": "membersports",
+    "golf_club_id": 3691,
+    "golf_course_id": 4751,
+    "zip": "80439"
+  },
+  {
+    "name": "Foothills (CO)",
+    "platform": "membersports",
+    "golf_club_id": 3697,
+    "golf_course_id": 4758,
+    "zip": "80235"
+  },
+  {
+    "name": "Fore Lakes (UT)",
+    "platform": "membersports",
+    "golf_club_id": 15394,
+    "golf_course_id": 18905,
+    "zip": "84123"
+  },
+  {
+    "name": "Fox Hollow (UT)",
+    "platform": "membersports",
+    "golf_club_id": 15396,
+    "golf_course_id": 18907,
+    "zip": "84003"
+  },
+  {
+    "name": "Green Spring (UT)",
+    "platform": "membersports",
+    "golf_club_id": 15402,
+    "golf_course_id": 18913,
+    "zip": "84780"
+  },
+  {
+    "name": "Grizzly Ranch (CA)",
+    "platform": "membersports",
+    "golf_club_id": 3497,
+    "golf_course_id": 4437,
+    "zip": "96122"
+  },
+  {
+    "name": "Groveport Municipal (OH)",
+    "platform": "membersports",
+    "golf_club_id": 12679,
+    "golf_course_id": 15654,
+    "zip": "43125"
+  },
+  {
+    "name": "Harvard Gulch (CO)",
+    "platform": "membersports",
+    "golf_club_id": 3713,
+    "golf_course_id": 4781,
+    "zip": "80212"
+  },
+  {
+    "name": "Hobble Creek (UT)",
     "platform": "membersports",
     "golf_club_id": 15404,
     "golf_course_id": 18918,
     "zip": "84663"
+  },
+  {
+    "name": "Kennedy (CO)",
+    "platform": "membersports",
+    "golf_club_id": 3629,
+    "golf_course_id": 20573,
+    "zip": "80014"
+  },
+  {
+    "name": "King Ranch (MT)",
+    "platform": "membersports",
+    "golf_club_id": 9967,
+    "golf_course_id": 12286,
+    "zip": "59834"
+  },
+  {
+    "name": "Lincoln Park (CO)",
+    "platform": "membersports",
+    "golf_club_id": 3739,
+    "golf_course_id": 4918,
+    "zip": "81501"
+  },
+  {
+    "name": "Meadows (CO)",
+    "platform": "membersports",
+    "golf_club_id": 3811,
+    "golf_course_id": 4906,
+    "zip": "80127"
+  },
+  {
+    "name": "Overland Park (CO)",
+    "platform": "membersports",
+    "golf_club_id": 3755,
+    "golf_course_id": 4827,
+    "zip": "80223"
+  },
+  {
+    "name": "River Oaks Municipal (MN)",
+    "platform": "membersports",
+    "golf_club_id": 9431,
+    "golf_course_id": 11701,
+    "zip": "55016"
+  },
+  {
+    "name": "Tiara Rado (CO)",
+    "platform": "membersports",
+    "golf_club_id": 3821,
+    "golf_course_id": 4918,
+    "zip": "81507"
+  },
+  {
+    "name": "Wellshire (CO)",
+    "platform": "membersports",
+    "golf_club_id": 3831,
+    "golf_course_id": 4928,
+    "zip": "80222"
+  },
+  {
+    "name": "Willis Case (CO)",
+    "platform": "membersports",
+    "golf_club_id": 3833,
+    "golf_course_id": 4932,
+    "zip": "80212"
   }
 ]

@@ -34,7 +34,7 @@ RUN apt-get update && apt-get install -y \
     && apt-get clean
 
 # Copy app code
-COPY .. .
+COPY . .
 
 # Install Python packages
 RUN pip install --upgrade pip

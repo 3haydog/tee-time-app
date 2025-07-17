@@ -2,7 +2,7 @@ import json
 import os
 
 # Load newly discovered raw clubs
-with open("discovered_membersports_courses.json", "r") as f:
+with open("discovery/discovered_membersports_courses.json", "r") as f:
     discovered = json.load(f)
 
 # Normalize incoming data
@@ -19,8 +19,8 @@ for club in discovered:
 
 # Load existing full data
 existing_courses = []
-if os.path.exists("data/courses.json"):
-    with open("data/courses.json", "r") as f:
+if os.path.exists("../data/courses.json"):
+    with open("../data/courses.json", "r") as f:
         try:
             existing_courses = json.load(f)
         except json.JSONDecodeError:
@@ -43,7 +43,7 @@ for course in new_courses:
 # Append and save
 if to_add:
     existing_courses.extend(to_add)
-    with open("data/courses.json", "w") as f:
+    with open("../data/courses.json", "w") as f:
         json.dump(existing_courses, f, indent=2)
     print(f"✅ Added {len(to_add)} new courses to data/courses.json")
 else:
