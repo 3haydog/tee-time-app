@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Query
 from typing import Optional
-from run_all_scrapers import run_all_scrapers
+from scripts.run_all_scrapers import run_all_scrapers
 from fastapi.middleware.cors import CORSMiddleware
 
 print("🚀 Loaded: app.main.py")
